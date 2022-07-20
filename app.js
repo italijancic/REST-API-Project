@@ -8,7 +8,7 @@ const ejs = require('ejs')
 const _ = require('lodash')
 
 const routes = require('./routes/index.routes')
-const { dbConnect } = require('./configuration/db')
+const { dbConnect } = require('./configs/db.configs')
 
 
 // Declare and configure express instance
